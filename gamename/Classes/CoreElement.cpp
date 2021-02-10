@@ -34,6 +34,7 @@ void CoreElementGame::_onStart()
     touchListener->onMouseMove = CC_CALLBACK_1(CoreElementGame::_mouseMovedHandler, this);
     getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener, this);
 
+    //ÀàËÆÓÚsetTimer
     cocos2d::Director::getInstance()->getScheduler()->schedule(
         schedule_selector(CoreElementGame::_enterFrameHandler),
         this, 0.0f, false

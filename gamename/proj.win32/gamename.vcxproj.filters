@@ -13,6 +13,9 @@
     <Filter Include="src\DragonBones">
       <UniqueIdentifier>{568c36ac-c7c9-4804-9be1-64b7b5f08fda}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\MyDemo">
+      <UniqueIdentifier>{399f745a-085a-4be6-9a31-32fa6f98296c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -137,6 +140,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\TestWorld.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>src\MyDemo</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -427,6 +433,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\TestWorld.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>src\MyDemo</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

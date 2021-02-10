@@ -64,11 +64,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // auto scene = ReplaceSlotDisplay::createScene();
      //auto scene = ReplaceSkin::createScene();
     //auto scene = ReplaceAnimation::createScene();
-     //auto scene = CoreElementGame::createScene();
+     auto scene = CoreElementGame::createScene();
      //auto scene = PerformanceTest::createScene();
 
     //auto scene = DragonBonesTest::createScene();
-    auto scene = TestWorld::createScene();
+    //auto scene = TestWorld::createScene();
     // run
     director->runWithScene(scene);
 
